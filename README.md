@@ -1,19 +1,16 @@
 # Open Source eCommerce Backend ( NestJS )
-**an e-commerce shop backend implementation written in Typescript powered by NestJS & Node JS.**
-- [x] Scaffold Product Routing 🔥 
-- [x] Connect MongoDB Database 🍃 
-- [x] Implement Authentication ✋ 
-- [x] Modern Shopping Cart 🛒
-- [x] Integrate Stripe Payments 💰 
-- [ ] Add Profile Features ℹ️  
-- [ ] Add Categorie Feature 🆕
-- [x] Implement Admin Control 👑  
-- [x] Deploy to Vercel 🥳
-## 1. How To Run Locally ?
-1. ```git clone https://github.com/JalalMitali/MitaliShop-NestJS.git```
-2. `create MongoDB cluster , create file 'env.local' in root and add the URI ( as in env.example)`
-3. install `openssl` if you haven't yet on Mac use  `brew install openssl@3` ( [HomeBrew](https://formulae.brew.sh/formula/openssl@3) )
-2. generate your private key 🔐  ```openssl genrsa -out private_key.pem 2048```
-4. generate your public key 🔑 ```openssl rsa -in private_key.pem -out public_key.pem -outform PEM -pubout```
-5. start server `yarn start dev --watch`
-6. use `PostMan`  ✉️ to test API endpoints and auth
+# Assignment for testing class
+
+## How To Run Locally ?
+1. clone the project
+2. run `docker compose up` (to setup a local db)
+3. create a file `.env.local` and insert the uri from `.env.example`
+4. generate your private key 🔐  ```openssl genrsa -out private_key.pem 2048```
+5. generate your public key 🔑 ```openssl rsa -in private_key.pem -out public_key.pem -outform PEM -pubout```
+6. start server `pnpm run start:dev`
+
+## How to Run Tests ?
+1. run `pnpm run test`
+
+![image](https://github.com/omar-besbes/netshop/assets/86571415/57e31867-68c2-45ce-9809-be570a7bf227)
+
