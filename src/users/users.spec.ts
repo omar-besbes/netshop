@@ -1,5 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { Users } from './users';
+import { describe, beforeEach, it, expect } from 'vitest';
 
 describe('Users', () => {
   let provider: Users;
