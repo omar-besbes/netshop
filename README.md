@@ -14,3 +14,7 @@
 
 ![image](https://github.com/omar-besbes/netshop/assets/86571415/57e31867-68c2-45ce-9809-be570a7bf227)
 
+## How to Check Test Coverage ?
+1. run `pnpm run test:cov`
+
+![image](https://github.com/omar-besbes/netshop/assets/86571415/9c6a0252-e2f7-416d-86b5-e94cde00d230)
