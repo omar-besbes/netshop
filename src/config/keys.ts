@@ -1,3 +1,3 @@
 export default {
-    mongoURI: process.env.MONGODB_URI
-}
+  mongoURI: process.env.MONGODB_URI,
+};
